@@ -1,2 +1,2 @@
 # Namaste-React
-To upload my homework for the Namaste React course.
+To upload my assignments for the Namaste React course.
