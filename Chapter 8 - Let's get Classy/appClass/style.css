@@ -1,0 +1,46 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  /* padding: 0 0 5vh 0; */
+  border-top: 1px solid black;
+}
+
+.counter > h3 {
+  margin: 0;
+}
+.counter > div > button {
+  height: 6vh;
+  width: 20vw;
+  margin: 3vh;
+}
+
+.colorShift {
+  display: flex;
+  border-top: 1px solid black;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
