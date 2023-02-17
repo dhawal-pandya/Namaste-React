@@ -1,0 +1,269 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(180deg, rgb(11, 77, 126), rgb(37, 2, 52));
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: #360d5d;
+  margin: 0;
+}
+
+.logo {
+  font-family: cursive;
+  font-size: 30;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar > li > a {
+  padding-right: 3vw;
+  text-decoration: none;
+  color: white;
+}
+
+.formHigh {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.formBack {
+  position: fixed;
+  z-index: 2;
+  left: 5vw;
+  top: 2vh;
+  height: 90vh;
+  width: 90vw;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.form {
+  z-index: 6;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  left: 25%;
+  top: 30vh;
+}
+
+@media screen and (min-width: 480px) {
+  .form > * {
+    /* max-width: 600px; */
+    text-align: center;
+    height: 4vw;
+    margin: 3vw 0;
+  }
+}
+
+.form > * {
+  /* max-width: 600px; */
+  text-align: center;
+  height: 4vh;
+  margin: 3vh 0;
+}
+
+.searchBarWrapper {
+  text-align: center;
+  padding: 5px 0 5px 0;
+}
+
+.searchBar {
+  text-align: center;
+  height: 4.5vh;
+  width: 60vw;
+  margin: 1vh;
+}
+
+.resListWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.resCardWrapper {
+  margin: 9px;
+  font-size: small;
+  color: white;
+  background-image: linear-gradient(180deg, #360d5d, rgb(11, 77, 126));
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 300px;
+  min-height: 40vh;
+  text-align: center;
+  padding: 3vw;
+  border: 1px solid black;
+  border-radius: 30px;
+  box-shadow: 3 3 3 0.02rem black;
+}
+
+.resCardWrapper:hover {
+  box-shadow: 0 0 0 0rem black;
+}
+
+.resCardWrapper > img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.resCuisine {
+  font-style: italic;
+  font-size: larger;
+  color: white;
+}
+
+.deliveryTime {
+  font-size: medium;
+  color: white;
+}
+
+.about {
+  text-align: center;
+  color: white;
+  padding: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 66vh;
+}
+
+.about > a {
+  text-decoration: underline;
+  color: white;
+  animation: infinite;
+}
+
+.contact {
+  text-align: center;
+  color: white;
+  padding: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 66vh;
+}
+
+.error {
+  margin: 0;
+  text-align: center;
+  color: white;
+  padding: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 66vh;
+}
+
+.resMenuWrapper {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  min-height: 76.5vh;
+}
+
+.resDetails {
+  margin: 5% 15%;
+  max-height: 200px;
+  width: 70%;
+
+  border-radius: 30px;
+  box-shadow: 3 3 3 0.2rem black;
+  display: flex;
+  background-image: linear-gradient(180deg, rgb(11, 77, 126), rgb(37, 2, 52));
+}
+
+.resDetails:hover {
+  box-shadow: 0 0 0 0rem black;
+  border: 1px solid black;
+}
+
+.resMenuImg {
+  width: 40%;
+  margin: 2% 0;
+  border-radius: 30px;
+  margin-left: 3%;
+}
+
+.resMenuName {
+  text-align: center;
+  margin: 3vw 0;
+  font-size: 3vw;
+  width: 100%;
+}
+
+.resMenuText {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.resMenuText > div {
+  font-size: 2.5vw;
+  padding: 0 4.5vw;
+  /* Youll need to change the padding if you change the font */
+}
+
+.resMenuDetails {
+  text-align: center;
+  top: -30px;
+}
+
+.menuList {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  width: 90%;
+  text-align: center;
+  justify-content: center;
+}
+
+.menuItems {
+  margin: 2vw;
+  padding: 3vw;
+  border-radius: 30px;
+  box-shadow: 3 3 3 0.02rem black;
+  background-image: linear-gradient(180deg, rgb(11, 77, 126), rgb(37, 2, 52));
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  padding-bottom: 2vh;
+}
+
+.f-logo::after {
+  content: ' - Copyright 2023';
+}
+
+.f-navbar {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: rgb(11, 77, 126);
+  text-align: center;
+  list-style: none;
+}
+
+.f-navbar > li {
+  padding-right: 3vw;
+}
